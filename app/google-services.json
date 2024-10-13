@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162609024073",
+    "project_id": "carshareapp-416709",
+    "storage_bucket": "carshareapp-416709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162609024073:android:95fbf75dca35c04ef88398",
+        "android_client_info": {
+          "package_name": "com.trungngo.carshareapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtBt9V7r6w-AvBXQw9yBNMNpvoPygVNKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

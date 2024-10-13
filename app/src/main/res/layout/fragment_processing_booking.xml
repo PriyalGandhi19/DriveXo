@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.customer.booking.processing_booking.ProcessingBookingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Processing your booking..."
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/originTextView"
+            android:text="Nhà thờ đức bà"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/ic_location_blue"
+            android:layout_gravity=""
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/destinationTextView"
+            android:text="Chợ Bến thành cửa nam"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/ic_location_red"
+            android:layout_gravity=""
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="Price"
+                android:drawableLeft="@drawable/ic_money"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/priceTextView"
+                android:layout_weight="0.5"
+                android:gravity="end"
+                android:text="20000VND"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/cancelBookingBtn"
+            android:backgroundTint="@color/red"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
